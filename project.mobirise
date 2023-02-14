@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 1687,
+    "uniqCompNum": 1690,
     "versionPublish": "5.7.12",
     "imageResize": true,
     "favicon": false,
@@ -4694,6 +4694,67 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#eb7c0b\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#eb7c0b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b>UPCOMING WORKSHOPS</b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_anchor": "content10-1aw",
+          "_isUserblock": true,
+          "_cid": "tvRdoTxxCi",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#465052"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>We are looking forward to sharing more upcoming workshops on organisational culture with Alex soon. The dates of them are detailed below:</p><p><b style=\"font-size: 1rem;\">Monday 27th February</b><br></p><p><b>Monday 27th March</b></p><p><b>Monday 24th April</b></p><p><b>Monday 30th May</b></p><p><b>Monday 26th June</b></p><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><p></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-1ax",
+          "_isUserblock": true,
+          "_cid": "tvRdpWaei3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor"
           },
           "_name": "content8",
@@ -4794,6 +4855,43 @@
           "_anchor": "footer1-11p",
           "_isUserblock": true,
           "_cid": "tuJdX9PS26",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline=\"\" title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"10\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#eb7c0b\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#eb7c0b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text=\"\"><b>DISPLAY THE BADGE</b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_anchor": "content10-1av",
+          "_isUserblock": true,
+          "_cid": "tvRdoaisUL",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -8749,7 +8847,7 @@
           },
           "_name": "content1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><b>ARTICLES\n</b><div>\n</div><div><br></div><div><a href=\"https://thehappinessindex.com/blog/understanding-organisational-culture\" class=\"text-primary\">The Happiness Index: The Importance of Organizational Culture</a> -  18 November 2022\n</div><div><br></div><div><span style=\"font-size: 1rem;\">This article dives into characteristics, importance, and cultivation of organisational culture.</span><br></div><div><br></div><div>\n</div><div><a href=\"https://www.forbes.com/sites/forbesbusinesscouncil/2023/02/06/how-leaders-can-build-a-sustainable-business-structure/?sh=277b7ab05667\" class=\"text-primary\">Forbes: How Leaders Can Build a Sustainable Business Structure</a> - 6 February 2023\n</div><div><br></div><div>\n</div><div>Forbes gathered members from their business council to provide effective tips to improve the foundation of your business. \n</div><div><br></div><div><a href=\"https://www.workhuman.com/blog/companies-with-great-culture/\" class=\"text-primary\">Workhuman: 7 Companies with Great Culture in 2023</a>&nbsp;<span style=\"font-size: 1rem;\">&nbsp;- 30 October 2022</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div>\n</div><div><span style=\"font-size: 1rem;\">Learn more about what common practices lead to a successful company culture and examples of some of these success stories in this article</span><br></div><div><br></div><div><b>RESOURCES\n</b></div><div><br></div><div><a href=\"https://www.cipd.co.uk/knowledge/culture/working-environment/organisation-culture-change-factsheet#gref\" class=\"text-primary\">Organisational Climate and Culture\n</a></div><div><br></div><div>The Chartered Institute of Personnel and Development is an association for human resource management professionals that provides input on how people operate at work. This page can be used as a resource on what organisational culture and climate looks like and how companies can work to improve it.</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><b>ARTICLES\n</b><div>\n</div><div><br></div><div><a href=\"https://thehappinessindex.com/blog/understanding-organisational-culture\" class=\"text-primary\">The Happiness Index: The Importance of Organizational Culture</a> -  18 November 2022\n</div><div><br></div><div><span style=\"font-size: 1rem;\">This article dives into characteristics, importance, and cultivation of organisational culture.</span><br></div><div><br></div><div>\n</div><div><a href=\"https://www.forbes.com/sites/forbesbusinesscouncil/2023/02/06/how-leaders-can-build-a-sustainable-business-structure/?sh=277b7ab05667\" class=\"text-primary\">Forbes: How Leaders Can Build a Sustainable Business Structure</a> - 6 February 2023\n</div><div><br></div><div>\n</div><div>Forbes gathered members from their business council to provide effective tips to improve the foundation of your business. \n</div><div><br></div><div><a href=\"https://www.workhuman.com/blog/companies-with-great-culture/\" class=\"text-primary\">Workhuman: 7 Companies with Great Culture in 2023</a>&nbsp;<span style=\"font-size: 1rem;\">&nbsp;- 30 October 2022</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div>\n</div><div><span style=\"font-size: 1rem;\">Learn more about what common practices lead to a successful company culture and examples of some of these success stories in this article</span><br></div><div><br></div><div><b>RESOURCES\n</b></div><div><br></div><div><a href=\"https://www.cipd.co.uk/knowledge/culture/working-environment/organisation-culture-change-factsheet#gref\" class=\"text-primary\">Organisational Climate and Culture\n</a></div><div><br></div><div>The Chartered Institute of Personnel and Development is an association for human resource management professionals that provides input on how people operate at work. This page can be used as a resource on what organisational culture and climate looks like and how companies can work to improve it.</div><div><br></div><div><a href=\"workshops.html\" class=\"text-primary\">Alex's Organisational Culture Workshops</a></div><div><br></div><div>Alex, an organisational culture coach, has already created multiple workshops to advise companies on their current practices and ways to improve them. Businesses and organisations working with Responsible 100 receive access to these workshops as well as 5 additional, upcoming workshops.</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div></div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-so",
           "_isUserblock": true,
           "_cid": "tgzVAhamDY",
